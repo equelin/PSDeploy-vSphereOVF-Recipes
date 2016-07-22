@@ -1,5 +1,11 @@
-# Sexilog
-Recipes for deploying Sexilog.
+# SexiLog
+Recipes for deploying SexiLog.
+
+| Name             | SexiLog                               |
+| Editor / Vendor  | SexiBytes                             |
+| Website          | http://www.sexilog.fr/                |
+| GitHub           | https://github.com/sexibytes/sexilog  |
+| Twitter          | https://twitter.com/sexilog_fr        |
 
 ## Example
 

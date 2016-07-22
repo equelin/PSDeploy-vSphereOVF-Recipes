@@ -1,6 +1,12 @@
 # Sexigraf
 Recipes for deploying Sexigraf.
 
+| Name             | Sexigraf                              |
+| Editor / Vendor  | SexiBytes                             |
+| Website          | http://www.sexigraf.fr/               |
+| GitHub           | https://github.com/sexibytes/sexigraf |
+| Twitter          | https://twitter.com/sexigraf_fr       |
+
 ## Example
 
 ```Powershell
