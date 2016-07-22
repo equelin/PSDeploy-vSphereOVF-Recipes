@@ -49,7 +49,7 @@ Deploy 'SexiLog' {
 | `PowerOn`            | Bool    | False     | False                                    | Is the virtual machine powered on after deploying  |
 | `OvfConfiguration`   | Hash    | True      | None                                     | See next paragraph  for more informations          |
 
-### Parameters for WithOptions hash
+### Parameters for OvfConfiguration hash
 
 | Key                         | Type    | Mandatory | Default                                  | Description                                        |
 | -------------------------   | --------| --------- | ---------------------------------------- |--------------------------------------------------- |
