@@ -8,6 +8,8 @@ Library of recipes for deploying OVF/OVA appliances with PSDeploy
 
 # Instructions
 
+> Even if the recipes are quiet self explanatory, reading the [PSDeploy documentation](http://psdeploy.readthedocs.io/en/latest/Example-vSphereOVF-Deployment/) might be a good idea ! 
+
 - If not already done, install all the needed requirements
 - Browse the subfolders of this repository to find the recipe you are looking for
 - Grab a copy of the recipe and store it on your computer
