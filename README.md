@@ -32,6 +32,11 @@ Deploy 'MyDeploy' {
 }
 ```
 
+# Organization of this repository
+
+Recipes are stored in subfolders of this repository. There is a different folder for each editors, products and versions.
+You will find in the folder `Tools` some script used to create the recipes. 
+
 # Requirements
 
 - VMware PowerCLI
