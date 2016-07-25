@@ -8,28 +8,28 @@ Library of recipes for deploying OVF/OVA appliances with PSDeploy
 
 # Instructions
 
-1. If not already done, install all the needed requirements
-2. Browse the subfolders of this repository to find the recipe you are looking for
-3. Grab a copy of the recipe and store it on your computer
+- If not already done, install all the needed requirements
+- Browse the subfolders of this repository to find the recipe you are looking for
+- Grab a copy of the recipe and store it on your computer
 
 > Don't forget to name your file like this: `MyFile.psdeploy.ps1`
 
-4. Change the parameters as needed
-5. Open a powercli console
-6. Log in to a vCenter Server or ESX host with the command `Connect-VIServer`
-7. Load the PSDeploy module
+- Change the parameters as needed
+- Open a powercli console
+- Log in to a vCenter Server or ESX host with the command `Connect-VIServer`
+- Load the PSDeploy module
 
 ```powershell
 Import-Module PSDeploy
 ```
 
-8. Run the Invoke-PSDeploy to start the deployment of our OVF/OVA
+- Run the Invoke-PSDeploy to start the deployment of our OVF/OVA
 
 ```powershell
 Invoke-PSDeploy -Path 'MyFile.psdeploy.ps1'
 ```
 
-9. Enjoy !
+- Enjoy !
 
 # Author
 
@@ -39,7 +39,8 @@ Invoke-PSDeploy -Path 'MyFile.psdeploy.ps1'
 
 # Special Thanks
 
-- Warren F. (author of PSDeploy)
+- Warren F. (author of PSDeploy) - [Blog](http://ramblingcookiemonster.github.io/) - [Twitter](https://twitter.com/pscookiemonster) - [GitHub](https://github.com/RamblingCookieMonster)
+
 
 # License
 
