@@ -1,14 +1,43 @@
 # PSDeploy-vSphereOVF-Recipes
 Library of recipes for deploying OVF/OVA appliances with PSDeploy
 
+# What is PSDeploy
+
+As stated by Warren F. (Author of the module)
+
+> PSDeploy is a quick and dirty module to simplify PowerShell based deployments.
+
+PSDeploy allow you to write simple recipes to deploy all kind of stuff like files, tasks or OVF/OVA appliances. 
+Recipes are written in a human-readable DSL style (Domain Specific language) and can be easily modified for your needs.
+
+> Even if the recipes are quiet self explanatory, reading the [PSDeploy documentation](http://psdeploy.readthedocs.io/en/latest/Example-vSphereOVF-Deployment/) might be a good idea !
+
+A simple recipe for deploying a OVF/OVA would look like this:
+
+```powershell
+Deploy 'MyDeploy' {
+    By vSphereOVF {
+        FromSource 'F:\MyOVA.ova'
+        To 'esxi.example.com'
+        Tagged 'Prod'
+        WithOptions @{
+            Name = 'MYVM'
+            Datastore = 'DATASTORE01'
+            OvfConfiguration = @{
+                'NetworkMapping.VM Network' = 'Production'
+            }
+            PowerOn = $true
+        }
+    }
+}
+```
+
 # Requirements
 
 - VMware PowerCLI
 - [PSDeploy](https://github.com/RamblingCookieMonster/PSDeploy)
 
 # Instructions
-
-> Even if the recipes are quiet self explanatory, reading the [PSDeploy documentation](http://psdeploy.readthedocs.io/en/latest/Example-vSphereOVF-Deployment/) might be a good idea ! 
 
 - If not already done, install all the needed requirements
 - Browse the subfolders of this repository to find the recipe you are looking for
@@ -42,7 +71,8 @@ Invoke-PSDeploy -Path 'MyFile.psdeploy.ps1'
 # Special Thanks
 
 - Warren F. (author of PSDeploy) - [Blog](http://ramblingcookiemonster.github.io/) - [Twitter](https://twitter.com/pscookiemonster) - [GitHub](https://github.com/RamblingCookieMonster)
-
+- William Lam - [Blog](http://www.virtuallyghetto.com/) - [Twitter](https://twitter.com/lamw) - [GitHub](https://github.com/lamw)
+- Alan Renouf - [Blog](http://www.virtu-al.net/) - [Twitter](https://twitter.com/alanrenouf/) - [GitHub](https://github.com/alanrenouf/)
 
 # License
 
