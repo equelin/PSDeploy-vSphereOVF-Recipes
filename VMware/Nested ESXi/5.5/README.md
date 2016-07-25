@@ -1,5 +1,5 @@
 # Nested ESXi
-Recipes for deploying Nested ESXi 6.0
+Recipes for deploying Nested ESXi 5.5
 
 # PSDeploy-vSphereOVF-Recipes
 Library of recipes for deploying Vmware vCenter Server Appliance 6.0
@@ -10,7 +10,7 @@ Library of recipes for deploying Vmware vCenter Server Appliance 6.0
 | Editor / Vendor  | VMware                                |
 | Website          | http://www.vmware.com/                |
 | Twitter          | https://twitter.com/VMware            |
-| Download         | https://download3.vmware.com/software/vmw-tools/nested-esxi/Nested_ESXi6.x_Appliance_Template_v5.ova |
+| Download         | https://download3.vmware.com/software/vmw-tools/nested-esxi/Nested_ESXi5.x_Appliance_Template_v2.ova |
 
 > Most of the informations find here has been found on this [Blogpost](http://www.virtuallyghetto.com/2015/12/deploying-nested-esxi-is-even-easier-now-with-the-esxi-virtual-appliance.html) from William Lam.
 
@@ -19,7 +19,7 @@ Library of recipes for deploying Vmware vCenter Server Appliance 6.0
 ```Powershell
 Deploy 'NestedESXi' {
     By vSphereOVF {
-        FromSource 'D:\nested_esxi_appliance_v6.0u2.ova'
+        FromSource 'D:\Nested_ESXi5.x_Appliance_Template_v2.ova'
         To 'esxi.example.com'
         Tagged 'Prod'
         WithOptions @{
