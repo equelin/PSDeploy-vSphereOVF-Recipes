@@ -10,7 +10,7 @@ Library of recipes for deploying Vmware vCenter Server Appliance 6.0
 | Editor / Vendor  | VMware                                |
 | Website          | http://www.vmware.com/                |
 | Twitter          | https://twitter.com/VMware            |
-| Download         | https://download3.vmware.com/software/vmw-tools/nested-esxi/Nested_ESXi5.x_Appliance_Template_v2.ova |
+| Download         | [Link](https://download3.vmware.com/software/vmw-tools/nested-esxi/Nested_ESXi5.x_Appliance_Template_v2.ova) |
 
 > Most of the informations find here has been found on this [Blogpost](http://www.virtuallyghetto.com/2015/12/deploying-nested-esxi-is-even-easier-now-with-the-esxi-virtual-appliance.html) from William Lam.
 
