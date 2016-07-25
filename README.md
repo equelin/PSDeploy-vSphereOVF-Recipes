@@ -1,7 +1,7 @@
 # PSDeploy-vSphereOVF-Recipes
-Library of recipes for deploying OVF/OVA appliances with PSDeploy
+Library of PSDeploy recipes for deploying OVF/OVA appliances.
 
-# What is PSDeploy
+# What is PSDeploy?
 
 As stated by Warren F. (Author of the module)
 
